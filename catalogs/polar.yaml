@@ -2,7 +2,7 @@ id: "polar"
 title: "Polar TEP Dashboard"
 description: "The Polar Thematic Exploitation Platform Dashboard Catalog"
 endpoint: "https://PolarTEPtest.github.io/catalog/polar/"
-assets_endpoint: "https://raw.githubusercontent.com/PolarTEPtest/assets/main/collections"
+assets_endpoint: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections"
 collections:
   # - CDS1_temperature
   # - CDS3_wind_10m_u
