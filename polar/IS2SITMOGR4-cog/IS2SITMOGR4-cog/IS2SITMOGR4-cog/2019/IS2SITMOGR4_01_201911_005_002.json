@@ -1,0 +1,183 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "IS2SITMOGR4_01_201911_005_002",
+  "properties": {
+    "proj:bbox": [
+      -20037508.342789244,
+      3667768.6694263835,
+      20004799.923071127,
+      20217918.693883747
+    ],
+    "proj:epsg": 3857.0,
+    "proj:shape": [
+      658.0,
+      1592.0
+    ],
+    "end_datetime": "2019-11-30T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -20037508.342789244,
+            3667768.6694263835
+          ],
+          [
+            20004799.923071127,
+            3667768.6694263835
+          ],
+          [
+            20004799.923071127,
+            20217918.693883747
+          ],
+          [
+            -20037508.342789244,
+            20217918.693883747
+          ],
+          [
+            -20037508.342789244,
+            3667768.6694263835
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      25152.20368458566,
+      0.0,
+      -20037508.342789244,
+      0.0,
+      -25152.20368458566,
+      20217918.693883747,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2019-11-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          31.269270721494188
+        ],
+        [
+          179.7061752664782,
+          31.269270721494188
+        ],
+        [
+          179.7061752664782,
+          85.18898561151076
+        ],
+        [
+          -180,
+          85.18898561151076
+        ],
+        [
+          -180,
+          31.269270721494188
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Polar TEP Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=IS2SITMOGR4-cog&item=IS2SITMOGR4_01_201911_005_002&assets=cog_default&rescale=0%2C16&colormap_name=plasma",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/IS2SITMOGR4-cog/IS2SITMOGR4_01_201911_005_002.tif&resampling_method=nearest&bidx=1&colormap_name=plasma&rescale=0.0,4.0",
+      "type": "image/png",
+      "title": "IS2SITMOGR4-cog"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)"
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/IS2SITMOGR4-cog/IS2SITMOGR4_01_201911_005_002.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 6.081999778747559,
+            "min": 0.0020000000949949026,
+            "count": 11.0,
+            "buckets": [
+              31918.0,
+              44476.0,
+              34192.0,
+              21853.0,
+              12202.0,
+              3193.0,
+              467.0,
+              173.0,
+              38.0,
+              22.0
+            ]
+          },
+          "statistics": {
+            "mean": 1.318618127836051,
+            "stddev": 0.7956158335691427,
+            "maximum": 6.081999778747559,
+            "minimum": 0.0020000000949949026,
+            "valid_percent": 34.21055056014151
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=IS2SITMOGR4-cog&item=IS2SITMOGR4_01_201911_005_002&assets=cog_default&rescale=0%2C16&colormap_name=plasma",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    31.269270721494188,
+    179.7061752664782,
+    85.18898561151076
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "IS2SITMOGR4-cog"
+}

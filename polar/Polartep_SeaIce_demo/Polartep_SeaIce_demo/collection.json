@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "Polartep_SeaIce_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Polar TEP Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Geometries Demonstration polartep"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_SeaIce_demo",
+  "title": "Sea Ice Concentration Geometries Demonstration polartep",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -66.6,
+          59.7,
+          -28.3,
+          74.3
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-21T15:02:20.106243Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_SeaIce_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

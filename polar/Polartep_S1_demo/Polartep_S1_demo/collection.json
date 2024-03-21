@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "Polartep_S1_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Polar TEP Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 Demonstration polartep"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_S1_demo",
+  "title": "Sentinel 1 Demonstration polartep",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -12.15,
+          61.1,
+          7.2,
+          70.3
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-21T15:02:20.091976Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_S1_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

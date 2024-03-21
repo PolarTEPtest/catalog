@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "Polartep_Snow_specific_surface_area_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Polar TEP Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area Demonstration polartep"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Polartep_Snow_specific_surface_area_demo",
+  "title": "Snow Specific Surface Area Demonstration polartep",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.7,
+          62.4,
+          -11.3,
+          67.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-21T15:02:20.101506Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Polartep_Snow_specific_surface_area_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

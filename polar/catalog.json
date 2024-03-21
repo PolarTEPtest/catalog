@@ -1,0 +1,524 @@
+{
+  "type": "Catalog",
+  "id": "polar",
+  "stac_version": "1.0.0",
+  "description": "The Polar Thematic Exploitation Platform Dashboard Catalog",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Polar TEP Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./IS2SITMOGR4-cog/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)",
+      "code": "SITI",
+      "id": "IS2SITMOGR4-cog",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SITI",
+      "satellite": [
+        "ICESat-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_S1_demo/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 Demonstration polartep",
+      "code": "Polartep_S1_demo",
+      "id": "Polartep_S1_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_S1_demo",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_Snowgrain_diameter_demo/collection.json",
+      "type": "application/json",
+      "title": "Snow Grain Diameter Demonstration polartep",
+      "code": "Polartep_Snowgrain_diameter_demo",
+      "id": "Polartep_Snowgrain_diameter_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_Snowgrain_diameter_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_Snow_specific_surface_area_demo/collection.json",
+      "type": "application/json",
+      "title": "Snow Specific Surface Area Demonstration polartep",
+      "code": "Polartep_Snow_specific_surface_area_demo",
+      "id": "Polartep_Snow_specific_surface_area_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_Snow_specific_surface_area_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIce_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Geometries Demonstration polartep",
+      "code": "Polartep_SeaIce_demo",
+      "id": "Polartep_SeaIce_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_SeaIce_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_SeaIceDetection_tif_demo/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Detection Model Demonstration polartep",
+      "code": "Polartep_SeaIceDetection_tif_demo",
+      "id": "Polartep_SeaIceDetection_tif_demo",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "Polartep_SeaIceDetection_tif_demo",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SIAGE/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_SIAGE",
+      "id": "TOPAZ5_P1D_SIAGE",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SIAGE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SICONC/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_SICONC",
+      "id": "TOPAZ5_P1D_SICONC",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SICONC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SISNTHICK/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_SISNTHICK",
+      "id": "TOPAZ5_P1D_SISNTHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SISNTHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_SITHICK/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_SITHICK",
+      "id": "TOPAZ5_P1D_SITHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_SITHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VXO/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea water velocity Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_VXO",
+      "id": "TOPAZ5_P1D_VXO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VXO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VXSI/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea ice velocity Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_VXSI",
+      "id": "TOPAZ5_P1D_VXSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VXSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VYO/collection.json",
+      "type": "application/json",
+      "title": "Northward sea water velocity Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_VYO",
+      "id": "TOPAZ5_P1D_VYO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VYO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ5_P1D_VYSI/collection.json",
+      "type": "application/json",
+      "title": "Northward sea ice velocity Arctic Ocean TOPAZ5",
+      "code": "TOPAZ5_P1D_VYSI",
+      "id": "TOPAZ5_P1D_VYSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ5_P1D_VYSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SICONC/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_SICONC",
+      "id": "TOPAZ4_P1D_SICONC",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SICONC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SISNTHICK/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_SISNTHICK",
+      "id": "TOPAZ4_P1D_SISNTHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SISNTHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_SITHICK/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_SITHICK",
+      "id": "TOPAZ4_P1D_SITHICK",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_SITHICK",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VXO/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea water velocity Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_VXO",
+      "id": "TOPAZ4_P1D_VXO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VXO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VXSI/collection.json",
+      "type": "application/json",
+      "title": "Eastward sea ice velocity Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_VXSI",
+      "id": "TOPAZ4_P1D_VXSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VXSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VYO/collection.json",
+      "type": "application/json",
+      "title": "Northward sea water velocity Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_VYO",
+      "id": "TOPAZ4_P1D_VYO",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VYO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TOPAZ4_P1D_VYSI/collection.json",
+      "type": "application/json",
+      "title": "Northward sea ice velocity Arctic Ocean TOPAZ4",
+      "code": "TOPAZ4_P1D_VYSI",
+      "id": "TOPAZ4_P1D_VYSI",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "TOPAZ4_P1D_VYSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "/home/runner/work/catalog/catalog/build/polar/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Polar TEP Dashboard"
+}
